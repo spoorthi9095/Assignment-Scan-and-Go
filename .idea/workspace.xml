@@ -9,19 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26c85625-3135-4055-b3ef-474443c5085d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/spoorthi/gittest/activities/AnotherEditActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/spoorthi/gittest/activities/EditProfileActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/spoorthi/gittest/activities/ProfileActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/spoorthi/gittest/activities/OTPActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/spoorthi/gittest/activities/OTPActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/spoorthi/gittest/fragments/UserProfileFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/spoorthi/gittest/fragments/UserProfileFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_edit_profile.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_edit_profile.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_another_edit.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml" />
-    </list>
+    <list default="true" id="26c85625-3135-4055-b3ef-474443c5085d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
