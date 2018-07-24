@@ -1,1 +1,1 @@
-# testing_git
+# Assignment: Scan and Go
