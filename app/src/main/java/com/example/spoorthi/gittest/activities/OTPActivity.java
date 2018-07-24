@@ -26,13 +26,11 @@ import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.example.spoorthi.gittest.general.KeyList.CODE_RECIEVED;
 import static com.example.spoorthi.gittest.general.KeyList.PHONE_NUM;
 
 public class OTPActivity extends AppCompatActivity {
@@ -220,7 +218,7 @@ public class OTPActivity extends AppCompatActivity {
 
     private void openUseHome()
     {
-        Intent intent = new Intent(this,EditProfileActivity.class);
+        Intent intent = new Intent(this,ProfileActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }

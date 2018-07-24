@@ -41,7 +41,7 @@ import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class EditProfileActivity extends AppCompatActivity {
+public class ProfileActivity extends AppCompatActivity {
 
     private static final int GALLERY = 1;
     CircleImageView profileImg;
@@ -51,7 +51,7 @@ public class EditProfileActivity extends AppCompatActivity {
     Button saveBtn;
 
     Uri photoUri = null;
-    private String TAG = EditProfileActivity.this.getClass().getSimpleName();
+    private String TAG = ProfileActivity.this.getClass().getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -209,7 +209,7 @@ public class EditProfileActivity extends AppCompatActivity {
 
     private void openUserHome()
     {
-        Intent intent = new Intent(EditProfileActivity.this,UserHomeActivity.class);
+        Intent intent = new Intent(ProfileActivity.this,UserHomeActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
@@ -248,7 +248,7 @@ public class EditProfileActivity extends AppCompatActivity {
     }
 
     private void showSettingsDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(EditProfileActivity.this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(ProfileActivity.this);
         builder.setTitle("Need Permissions");
         builder.setMessage("This app needs permission to use this feature. You can grant them in app settings.");
         builder.setPositiveButton("GOTO SETTINGS", new DialogInterface.OnClickListener() {

@@ -24,7 +24,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.spoorthi.gittest.R;
-import com.example.spoorthi.gittest.activities.EditProfileActivity;
 import com.example.spoorthi.gittest.activities.MainActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
