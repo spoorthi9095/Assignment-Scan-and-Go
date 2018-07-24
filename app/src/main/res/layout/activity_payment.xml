@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PaymentActivity"
+    android:background="#dbdbdb">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_payment_status"
+                android:text="Payment Success"
+                android:textSize="22sp"
+                android:padding="1dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_greetings"
+                android:layout_gravity="center"
+                android:text="Thank you for shopping with us"
+                android:textSize="16sp"
+                android:padding="1dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/iv_status"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/ic_check_white_24dp"
+                android:background="@drawable/green_circle_with_border"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_order_id_label"
+                android:layout_gravity="center"
+                android:text="Your Order ID is"
+                android:textSize="16sp"
+                android:padding="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_order_id"
+                android:text="324"
+                android:textSize="22sp"
+                android:padding="1dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_done"
+        android:text="Done"
+        android:background="@drawable/green_btn_bg"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

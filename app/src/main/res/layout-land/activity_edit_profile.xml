@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.EditProfileActivity"
+    android:background="@drawable/orange_gradient">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame_ly">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_profile_img"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            app:civ_border_width="5dp"
+            app:civ_border_color="@android:color/white"
+            android:src="@drawable/ic_place_holder" />
+
+        <ImageView
+            android:id="@+id/iv_edit_profile"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="13dp"
+            app:srcCompat="@drawable/ic_edit_black_24dp"
+            android:background="@drawable/circle_bg"
+            android:padding="5dp"
+            android:tint="@android:color/holo_orange_light"
+            android:layout_marginStart="30dp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/frame_ly"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Name"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Email ID"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_contact_num_label"
+            android:text="Contact Number"
+            android:padding="1dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_contact_num"
+                android:text="+91 9999999999"
+                android:textSize="16sp"
+                android:padding="1dp"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/iv_verified"
+                app:srcCompat="@drawable/ic_check_white_24dp"
+                android:background="@drawable/green_circle_bg"
+                android:padding="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_save"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_green_light"
+        android:text="Save"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.spoorthi.gittest">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/another_app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.OTPActivity"
+            android:label="@string/another_app_name" />
+        <activity android:name=".activities.EditProfileActivity"
+            android:label="@string/another_app_name" />
+        <activity android:name=".activities.AnotherEditActivity"
+            android:label="@string/another_app_name" />
+        <activity
+            android:name=".activities.UserHomeActivity"
+            android:label="@string/another_app_name"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.ViewCartActivity"
+            android:label="@string/another_app_name"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.PaymentActivity"
+            android:label="@string/another_app_name"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
