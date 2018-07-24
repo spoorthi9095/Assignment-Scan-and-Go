@@ -56,7 +56,7 @@ public class ProfileActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit_profile);
+        setContentView(R.layout.activity_profile);
 
         setLightStatusBar(getWindow().getDecorView(),this);
         if(getSupportActionBar()!=null)
